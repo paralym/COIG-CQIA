@@ -93,7 +93,7 @@ from transformers import AutoModel
 | ----------------- | -------- | ------ | --------------------------------------- |
 | Encyclopedic Article        | 980      | Collected from the internet.[Website](https://10why.net/)[Website](https://www.eetree.cn/wiki/eebaike)[Website](https://www.nongyie.com/)[Website](https://www.gkket.com/gkwk/) | Rule-based method for cleaning and filtering, followed by manual review. |
 | Encyclopedia of China       | 1706    | [Website](https://www.zgbk.com/) | Manually-written prompt templates. |
-| wikiHow-zh       | 1876    | [Website](https://zh.wikihow.com/首页)&[Open dateset](https://github.com/esbatmop/MNBVC/tree/main) | Rule-based method for cleaning and filtering. |
+| wikiHow-zh       | 1876    | [Website](https://zh.wikihow.com/首页) & [Open dateset](https://github.com/esbatmop/MNBVC/tree/main) | Rule-based method for cleaning and filtering. |
 | **Total**         | **4571** | -      | -                                       |
 
 </details>
