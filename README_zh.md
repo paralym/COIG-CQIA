@@ -7,7 +7,7 @@
 
 ## 项目简介
 
-COIG-CQIA以中文互联网获取到的问答及文章作为原始数据，经过深度清洗、重构及人工审核构建而成。本项目受LIMA: Less Is More for Alignment等研究启发，使用少量高质量的数据即可让大语言模型学习到人类交互行为，因此在数据构建中我们十分注重数据的来源、质量与多样性，数据集详情请见[数据]及接下来的论文。
+COIG-CQIA以中文互联网获取到的问答及文章作为原始数据，经过深度清洗、重构及人工审核构建而成。本项目受*LIMA: Less Is More for Alignment*等研究启发，使用少量高质量的数据即可让大语言模型学习到人类交互行为，因此在数据构建中我们十分注重数据的来源、质量与多样性，数据集详情请见[数据](#数据详情)及接下来的论文。
 
 ## 更新
 
@@ -17,7 +17,7 @@ COIG-CQIA以中文互联网获取到的问答及文章作为原始数据，经�
 
 利用COIG-CQIA数据，我们开发了一系列基于Yi的SFT模型，更多版本即将发布。
 
-| Model Name | Base Model | Download Link |
+| 模型名称 | 基座模型 | 下载链接 |
 | --- | --- | --- |
 | CQIA-Yi-6B-v0.1 | Yi-6B-base | [Download](#) |
 | CQIA-Yi-34B-v0.1 | Yi-34B-base | [Download](#) |
@@ -169,7 +169,7 @@ from transformers import AutoModel
 
 ## Citation
 
-To cite COIG-CQIA in your work, please use the following format:
+如果本项目为您的研究带来了帮助，请参考以下格式引用：
 
 ```bibtex
 @misc{COIG-CQIA,
@@ -182,7 +182,7 @@ To cite COIG-CQIA in your work, please use the following format:
 }
 ```
 
-Additional relevant citations:
+本数据集中也包含了以下公开数据：
 ```bibtex
 @article{zhang2023chinese,
   title={Chinese open instruction generalist: A preliminary release},
@@ -198,4 +198,12 @@ Additional relevant citations:
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/yangjianxin1/Firefly}},
 }
+@misc{xu2023cvalues,
+    title={CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility}, 
+    author={Guohai Xu and Jiayi Liu and Ming Yan and Haotian Xu and Jinghui Si and Zhuoran Zhou and Peng Yi and Xing Gao and Jitao Sang and Rong Zhang and Ji Zhang and Chao Peng and Fei Huang and Jingren Zhou},
+    year={2023},
+    eprint={2307.09705},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+  }
 ```

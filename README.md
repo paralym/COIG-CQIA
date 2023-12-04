@@ -2,7 +2,7 @@
 
 \[ English | [中文](README_zh.md) \]
 
-Welcome to the COIG-CQIA project page. COIG-CQIA stands for **Chinese Open Instruction Generalist - Quality is All You Need**, a high-quality Chinese instruction fine-tuning dataset. This dataset is designed to provide the Chinese NLP community with high-quality and human interaction-aligned instruction fine-tuning data.
+Welcome to the COIG-CQIA project page. COIG-CQIA stands for **Chinese Open Instruction Generalist - Quality is All You Need**, a high-quality Chinese instruction fine-tuning dataset. This dataset is designed to provide the Chinese NLP community with **high-quality** and **human interaction-aligned** instruction fine-tuning data.
 
 ## Project Overview
 
@@ -197,4 +197,12 @@ Additional relevant citations:
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/yangjianxin1/Firefly}},
 }
+@misc{xu2023cvalues,
+  title={CValues: Measuring the Values of Chinese Large Language Models from Safety to Responsibility}, 
+  author={Guohai Xu and Jiayi Liu and Ming Yan and Haotian Xu and Jinghui Si and Zhuoran Zhou and Peng Yi and Xing Gao and Jitao Sang and Rong Zhang and Ji Zhang and Chao Peng and Fei Huang and Jingren Zhou},
+  year={2023},
+  eprint={2307.09705},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL}
+  }
 ```
