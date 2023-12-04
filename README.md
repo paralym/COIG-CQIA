@@ -72,8 +72,44 @@ from transformers import AutoModel
 ### Dataset Breakdown
 
 <details>
-<summary><b>Logical Reasoning</b></summary>
-<p>
+<summary><b>Social Media&Forum</b></summary>
+
+| Category          | Quantity | Source | Construction Method                     |
+| ----------------- | -------- | ------ | --------------------------------------- |
+| Zhihu        | 8837      | [Website](https://www.zhihu.com/) | Multi-stage filtering and human verification. |
+| Douban       | 3132    | [Website](https://www.douban.com/) | Manually-written prompt templates. |
+| Xiaohongshu       | 1508    | [Website](https://www.xiaohongshu.com/explore) | Manually-written prompt templates. |
+| Segmentfault       | 458    | [Website](https://segmentfault.com/) | Rule-based method for cleaning and filtering, followed by manual review. |
+| **Total**         | **13935** | -      | -                                       |
+
+</details>
+
+<details>
+<summary><b>Encyclopedia</b></summary>
+
+| Category          | Quantity | Source | Construction Method                     |
+| ----------------- | -------- | ------ | --------------------------------------- |
+| Encyclopedic Article        | 980      | Collected from the internet.[Website](https://10why.net/)[Website](https://www.eetree.cn/wiki/eebaike)[Website](https://www.nongyie.com/)[Website](https://www.gkket.com/gkwk/) | Rule-based method for cleaning and filtering, followed by manual review. |
+| Encyclopedia of China       | 1706    | [Website](https://www.zgbk.com/) | Manually-written prompt templates. |
+| wikiHow-zh       | 1876    | [Website](https://zh.wikihow.com/首页)&[Open dateset](https://github.com/esbatmop/MNBVC/tree/main) | Rule-based method for cleaning and filtering. |
+| **Total**         | **4571** | -      | -                                       |
+
+</details>
+
+<details>
+<summary><b>Examinations&Quiz</b></summary>
+
+| Category          | Quantity | Source | Construction Method                     |
+| ----------------- | -------- | ------ | --------------------------------------- |
+| The Chinese National College Entrance Examination&Middle School Entrance Examinations        | 2000      | [Open Dataset](https://huggingface.co/datasets/BAAI/COIG) | - |
+| Nationwide Master's Program Unified Admissions Examination       | 475    | Collected from the internet | Rule-based method for cleaning and filtering. |
+| Logical Reasoning       | 422    | Collected from the internet | Rule-based method for cleaning and filtering. |
+| **Total**         | **2897** | -      | -                                       |
+
+</details>
+
+<details>
+<summary><b>Human value</b></summary>
 
 | Category          | Quantity | Source | Construction Method                     |
 | ----------------- | -------- | ------ | --------------------------------------- |
@@ -81,9 +117,52 @@ from transformers import AutoModel
 | COIG-human-value  | 101      | [Open Dataset](https://huggingface.co/datasets/BAAI/COIG) | Manual review of question quality |
 | **Total**         | **1007** | -      | -                                       |
 
-</p>
 </details>
 
+<details>
+<summary><b>Traditional Chinese Culture</b></summary>
+
+| Category          | Quantity | Source | Construction Method                     |
+| ----------------- | -------- | ------ | --------------------------------------- |
+| Traditional Knowledge Quiz         | 232      | Collected from the internet | Rule-based method for cleaning and filtering, followed by manual review. |
+| Chinese Idiom  | 112      | [Open Dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | Rule-based method for cleaning and filtering, followed by manual review. |
+| Classical Chinese Poetry Writing  | 47      | [Open Dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | Rule-based method for cleaning and filtering, followed by manual review. |
+| Classical Chinese Translation  | 112      | [Open Dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | Rule-based method for cleaning and filtering, followed by manual review. |
+| **Total**         | **1112** | -      | -                                       |
+
+</details>
+
+<details>
+<summary><b>Finance&Economy Management</b></summary>
+
+| Category          | Quantity | Source | Construction Method                     |
+| ----------------- | -------- | ------ | --------------------------------------- |
+| MBA Encyclopedia       | 10689    | [Website](https://wiki.mbalib.com/wiki/首页) | Manually-written prompt templates. |
+| Finance NLP tasks  | 600      | [Open Dataset](https://huggingface.co/datasets/BAAI/COIG-PC) | Manual review of question quality. |
+| **Total**         | **12689** | -      | -                                       |
+
+</details>
+
+<details>
+<summary><b>Medical</b></summary>
+
+| Category          | Quantity | Source | Construction Method                     |
+| ----------------- | -------- | ------ | --------------------------------------- |
+| Medical Encyclopedia       | 8351    | [Website](www.baikemy.com) | Manually-written prompt templates. |
+| Medical Articles  | 186      | [Website](https://51zyzy.com/article/list.html)[Website](https://baobao.baidu.com/dailyjnl/list/13.html) | Rule-based method for cleaning and filtering. |
+| **Total**         | **8537** | -      | -                                       |
+
+</details>
+
+<details>
+<summary><b>Law</b></summary>
+
+| Category          | Quantity | Source | Construction Method                     |
+| ----------------- | -------- | ------ | --------------------------------------- |
+| Nationwide Master's Program Unified Admissions Examination       | 2645    | Collected from the internet | Rule-based method for cleaning and filtering. |
+| **Total**         | **8537** | -      | -                                       |
+
+</details>
 
 ## Citation
 
