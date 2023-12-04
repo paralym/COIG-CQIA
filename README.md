@@ -77,7 +77,7 @@ from transformers import AutoModel
 
 To cite COIG-CQIA in your work, please use the following format:
 
-```json
+```bibtex
 @misc{COIG-CQIA,
   author = {},
   title = {COIG-CQIA: Quality is All you need for Chinese Instruction Fine-tuning},
@@ -89,7 +89,19 @@ To cite COIG-CQIA in your work, please use the following format:
 ```
 
 Additional relevant citations:
-
-- Zhang et al. (2023) on Chinese open instruction generalist
-- Jianxin Yang's Firefly (流萤) project
-
+```bibtex
+@article{zhang2023chinese,
+  title={Chinese open instruction generalist: A preliminary release},
+  author={Zhang, Ge and Shi, Yemin and Liu, Ruibo and Yuan, Ruibin and Li, Yizhi and Dong, Siwei and Shu, Yu and Li, Zhaoqun and Wang, Zekun and Lin, Chenghua and others},
+  journal={arXiv preprint arXiv:2304.07987},
+  year={2023}
+}
+@misc{Firefly,
+  author = {Jianxin Yang},
+  title = {Firefly(流萤): 中文对话式大语言模型},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/yangjianxin1/Firefly}},
+}
+```
