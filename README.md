@@ -71,11 +71,19 @@ from transformers import AutoModel
 
 ### Dataset Breakdown
 
+<details>
+<summary><b>Logical Reasoning</b></summary>
+<p>
+
 | Category          | Quantity | Source | Construction Method                     |
 | ----------------- | -------- | ------ | --------------------------------------- |
 | 100poison         | 906      | [Open Dataset](https://modelscope.cn/datasets/damo/100PoisonMpts/summary) | - |
 | COIG-human-value  | 101      | [Open Dataset](https://huggingface.co/datasets/BAAI/COIG) | Manual review of question quality |
 | **Total**         | **1007** | -      | -                                       |
+
+</p>
+</details>
+
 
 ## Citation
 
