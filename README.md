@@ -71,7 +71,11 @@ from transformers import AutoModel
 
 ### Dataset Breakdown
 
-[Here, provide a detailed table similar to the one in your original content, translated into English]
+| Category          | Quantity | Source | Construction Method                     |
+| ----------------- | -------- | ------ | --------------------------------------- |
+| 100poison         | 906      | [Open Dataset](https://modelscope.cn/datasets/damo/100PoisonMpts/summary) | - |
+| COIG-human-value  | 101      | [Open Dataset](https://huggingface.co/datasets/BAAI/COIG) | Manual review of question quality |
+| **Total**         | **1007** | -      | -                                       |
 
 ## Citation
 
