@@ -99,6 +99,16 @@ from transformers import AutoModel
 </details>
 
 <details>
+<summary><b>General NLP tasks</b></summary>
+
+| Category          | Quantity | Source | Construction Method                     |
+| ----------------- | -------- | ------ | --------------------------------------- |
+| COIG-PC-Core        | 3000      | [[Open Dataset]](https://huggingface.co/datasets/BAAI/COIG-PC-core) | Manual review of question quality. |
+| **总量**         | **3000** | -      | -                                       |
+
+</details>
+
+<details>
 <summary><b>Examinations&Quiz</b></summary>
 
 | Category          | Quantity | Source | Construction Method                     |

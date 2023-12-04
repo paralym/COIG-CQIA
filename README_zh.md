@@ -99,6 +99,18 @@ from transformers import AutoModel
 
 </details>
 
+</details>
+
+<details>
+<summary><b>通用NLP任务</b></summary>
+
+| 类别          | 数量 | 来源 | 构造方式                     |
+| ----------------- | -------- | ------ | --------------------------------------- |
+| COIG-PC-Core        | 3000      | [[Open Dataset]](https://huggingface.co/datasets/BAAI/COIG-PC-core) | 人工验证数据质量。 |
+| **总量**         | **3000** | -      | -                                       |
+
+</details>
+
 <details>
 <summary><b>考试&试题</b></summary>
 
