@@ -79,10 +79,10 @@ from transformers import AutoModel
 
 | 类别          | 数量 | 来源 | 构造方式                     |
 | ----------------- | -------- | ------ | --------------------------------------- |
-| 知乎        | 8837      | [网址链接](https://www.zhihu.com/) | 经过过阶段的数据质量筛选和人工验证。 |
-| 豆瓣       | 3132    | [网址链接](https://www.douban.com/) | 人工撰写多样的prompt模板构造而成。 |
-| 小红书       | 1508    | [网址链接](https://www.xiaohongshu.com/explore) | 人工撰写多样的prompt模板构造而成。 |
-| Segmentfault       | 458    | [网址链接](https://segmentfault.com/) | 规则方式清洗与筛选，并经过人工验证。 |
+| 知乎        | 8837      | [[网址链接]](https://www.zhihu.com/) | 经过过阶段的数据质量筛选和人工验证。 |
+| 豆瓣       | 3132    | [[网址链接]](https://www.douban.com/) | 人工撰写多样的prompt模板构造而成。 |
+| 小红书       | 1508    | [[网址链接]](https://www.xiaohongshu.com/explore) | 人工撰写多样的prompt模板构造而成。 |
+| Segmentfault       | 458    | [[网址链接]](https://segmentfault.com/) | 规则方式清洗与筛选，并经过人工验证。 |
 | **总量**         | **13935** | -      | -                                       |
 
 </details>
@@ -92,9 +92,9 @@ from transformers import AutoModel
 
 | 类别          | 数量 | 来源 | 构造方式                     |
 | ----------------- | -------- | ------ | --------------------------------------- |
-| 百科文章        | 980      | 从网络中收集。[网址链接](https://10why.net/) [网址链接](https://www.eetree.cn/wiki/eebaike) [网址链接](https://www.nongyie.com/) [网址链接](https://www.gkket.com/gkwk/) | 规则方式清洗与筛选，并经过人工验证。 |
-| 中国大百科全书       | 1706    | [网址链接](https://www.zgbk.com/) | 人工撰写多样的prompt模板构造而成。 |
-| wikiHow中文       | 1876    | [网址链接](https://zh.wikihow.com/首页)&[Open dateset](https://github.com/esbatmop/MNBVC/tree/main) | 规则方式清洗与筛选。 |
+| 百科文章        | 980      | 从网络中收集。[[网址链接]](https://10why.net/) [[网址链接]](https://www.eetree.cn/wiki/eebaike) [[网址链接]](https://www.nongyie.com/) [[网址链接]](https://www.gkket.com/gkwk/) | 规则方式清洗与筛选，并经过人工验证。 |
+| 中国大百科全书       | 1706    | [[网址链接]](https://www.zgbk.com/) | 人工撰写多样的prompt模板构造而成。 |
+| wikiHow中文       | 1876    | [[网址链接]](https://zh.wikihow.com/首页)&[[Open Dataset]](https://github.com/esbatmop/MNBVC/tree/main) | 规则方式清洗与筛选。 |
 | **总量**         | **4571** | -      | -                                       |
 
 </details>
@@ -104,7 +104,7 @@ from transformers import AutoModel
 
 | 类别          | 数量 | 来源 | 构造方式                     |
 | ----------------- | -------- | ------ | --------------------------------------- |
-| 高考&中考        | 2000      | [Open Dataset](https://huggingface.co/datasets/BAAI/COIG) | - |
+| 高考&中考        | 2000      | [[Open Dataset]](https://huggingface.co/datasets/BAAI/COIG) | - |
 | 研究生入学考试       | 475    | 从网络中收集 | 规则方式清洗与筛选。 |
 | 逻辑推理题       | 422    | 从网络中收集 | 规则方式清洗与筛选。 |
 | **总量**         | **2897** | -      | -                                       |
@@ -116,8 +116,8 @@ from transformers import AutoModel
 
 | 类别          | 数量 | 来源 | 构造方式                     |
 | ----------------- | -------- | ------ | --------------------------------------- |
-| 100poison         | 906      | [Open Dataset](https://modelscope.cn/datasets/damo/100PoisonMpts/summary) | - |
-| COIG-human-value  | 101      | [Open Dataset](https://huggingface.co/datasets/BAAI/COIG) | 经人工审核数据质量 |
+| 100poison         | 906      | [[Open Dataset]](https://modelscope.cn/datasets/damo/100PoisonMpts/summary) | - |
+| COIG-human-value  | 101      | [[Open Dataset]](https://huggingface.co/datasets/BAAI/COIG) | 经人工审核数据质量 |
 | **总量**         | **1007** | -      | -                                       |
 
 </details>
@@ -128,9 +128,9 @@ from transformers import AutoModel
 | 类别          | 数量 | 来源 | 构造方式                     |
 | ----------------- | -------- | ------ | --------------------------------------- |
 | 中华传统文化试题         | 232      | 从网络中收集 | 规则方式清洗与筛选，并经过人工验证。 |
-| 成语释义  | 112      | [Open Dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | 规则方式清洗与筛选，并经过人工验证。 |
-| 古诗词撰写  | 47      | [Open Dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | 规则方式清洗与筛选，并经过人工验证。 |
-| 文言文互译  | 112      | [Open Dataset](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | 规则方式清洗与筛选，并经过人工验证。 |
+| 成语释义  | 112      | [[Open Dataset]](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | 规则方式清洗与筛选，并经过人工验证。 |
+| 古诗词撰写  | 47      | [[Open Dataset]](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | 规则方式清洗与筛选，并经过人工验证。 |
+| 文言文互译  | 112      | [[Open Dataset]](https://huggingface.co/datasets/YeungNLP/firefly-train-1.1M) | 规则方式清洗与筛选，并经过人工验证。 |
 | **总量**         | **1112** | -      | -                                       |
 
 </details>
@@ -140,8 +140,8 @@ from transformers import AutoModel
 
 | 类别          | 数量 | 来源 | 构造方式                     |
 | ----------------- | -------- | ------ | --------------------------------------- |
-| MBA百科       | 10689    | [网址链接](https://wiki.mbalib.com/wiki/首页) | 人工撰写多样的prompt模板构造而成。 |
-| 金融NLP任务  | 600      | [Open Dataset](https://huggingface.co/datasets/BAAI/COIG-PC) | 人工核验数据质量 |
+| MBA百科       | 10689    | [[网址链接]](https://wiki.mbalib.com/wiki/首页) | 人工撰写多样的prompt模板构造而成。 |
+| 金融NLP任务  | 600      | [[Open Dataset]](https://huggingface.co/datasets/BAAI/COIG-PC) | 人工核验数据质量 |
 | **总量**         | **12689** | -      | -                                       |
 
 </details>
@@ -151,8 +151,8 @@ from transformers import AutoModel
 
 | 类别          | 数量 | 来源 | 构造方式                     |
 | ----------------- | -------- | ------ | --------------------------------------- |
-| 医疗百科       | 8351    | [网址链接](www.baikemy.com) | 人工撰写多样的prompt模板构造而成。 |
-| 医疗文章  | 186      | [网址链接](https://51zyzy.com/article/list.html) [网址链接](https://baobao.baidu.com/dailyjnl/list/13.html) | 规则方式清洗与筛选。 |
+| 医疗百科       | 8351    | [[网址链接]](www.baikemy.com) | 人工撰写多样的prompt模板构造而成。 |
+| 医疗文章  | 186      | [[网址链接]](https://51zyzy.com/article/list.html) [[网址链接]](https://baobao.baidu.com/dailyjnl/list/13.html) | 规则方式清洗与筛选。 |
 | **总量**         | **8537** | -      | -                                       |
 
 </details>
