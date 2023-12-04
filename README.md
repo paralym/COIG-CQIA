@@ -1,5 +1,7 @@
 # COIG-CQIA：Quality is All you need for Chinese Instruction Fine-tuning
 
+\[ English | [中文](README_zh.md) \]
+
 Welcome to the COIG-CQIA project page. COIG-CQIA stands for **Chinese Open Instruction Generalist - Quality is All You Need**, a high-quality Chinese instruction fine-tuning dataset. This dataset is designed to provide the Chinese NLP community with high-quality and human interaction-aligned instruction fine-tuning data.
 
 ## Project Overview
@@ -160,7 +162,7 @@ from transformers import AutoModel
 | Category          | Quantity | Source | Construction Method                     |
 | ----------------- | -------- | ------ | --------------------------------------- |
 | Nationwide Master's Program Unified Admissions Examination       | 2645    | Collected from the internet | Rule-based method for cleaning and filtering. |
-| **Total**         | **8537** | -      | -                                       |
+| **Total**         | **2645** | -      | -                                       |
 
 </details>
 
